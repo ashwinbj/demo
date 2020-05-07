@@ -1,14 +1,26 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "products": [{
+    "id":1,
+    "product_name": "big bag",
+    "cost": 1200,
+    "product_img_url": "https://cdn.shopify.com/s/files/1/2219/4035/products/7_706bad47-47bc-4e13-a63e-2b4457a4950c_1024x1024.jpg?v=1502162822"
+  },
+  {
+    "id":2,
+    "product_name": "small bag",
+    "cost": 800,
+    "product_img_url": "https://cdn.shopify.com/s/files/1/2219/4035/products/11_1024x1024.jpg?v=1502162826"
+  },
+  {
+    "id":3,
+    "product_name": "small chair",
+    "cost": 2500,
+    "product_img_url": "https://cdn.shopify.com/s/files/1/2219/4035/products/9_e05dd5d1-0825-4494-9795-9d55d1d4d035_1024x1024.jpg?v=1502162824"
+  },
+  {
+    "id":4,
+    "product_name": "small cloth",
+    "cost": 600,
+    "product_img_url": "https://cdn.shopify.com/s/files/1/2219/4035/products/8_f1de2858-3a0b-47b5-99f5-6a4516117b79_1024x1024.jpg?v=1502162823"
+  }]
 }
